@@ -2,3 +2,6 @@
 /main.cpp
 .idea/
 /cmake-build-debug/
+CompetitiveProgramming.code-workspace
+.venv/
+*.json
