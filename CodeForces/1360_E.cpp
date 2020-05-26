@@ -33,11 +33,7 @@ int main() {
             }
         }
 
-        if (isValid) {
-            std::cout << "YES\n";
-        } else {
-            std::cout << "NO\n";
-        }
+        std::cout << (isValid ? "YES\n" : "NO\n");
     }
     return 0;
 }
