@@ -4,7 +4,9 @@ using namespace std;
 
 int main(){
 
-    //freopen("input.txt", "r", stdin);
+#ifdef _DEBUG
+    freopen("input.txt", "r", stdin);
+#endif
 
     int t;
     cin >> t;
